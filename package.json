@@ -1,0 +1,50 @@
+{
+  "name": "@kurted/otp-input",
+  "version": "1.0.0",
+  "description": "OTP Input component",
+  "main": "dist/index.js",
+  "module": "dist/index.es.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "develop": "rollup -cw",
+    "build": "rollup -c && npx tsc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kurted/otp-input.git"
+  },
+  "keywords": [
+    "react",
+    "kurted",
+    "otp"
+  ],
+  "author": "kurted",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/kurted/otp-input/issues"
+  },
+  "homepage": "https://github.com/kurted/otp-input#readme",
+  "files": [
+    "dist",
+    "README.md"
+  ],
+  "peerDependencies": {
+    "react": "^16.2.0",
+    "react-dom": "^16.2.0"
+  },
+  "devDependencies": {
+    "@babel/preset-env": "^7.12.1",
+    "@babel/preset-react": "^7.12.1",
+    "@types/react": "^16.9.53",
+    "@types/react-dom": "^16.9.8",
+    "babel-core": "^6.26.3",
+    "babel-loader": "^8.1.0",
+    "babel-runtime": "^6.26.0",
+    "react": "^16.8.0",
+    "react-dom": "^16.8.0",
+    "rollup": "^2.32.1",
+    "rollup-plugin-sass": "^1.2.2",
+    "rollup-plugin-typescript2": "^0.28.0",
+    "typescript": "^4.0.3"
+  }
+}
